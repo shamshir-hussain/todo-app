@@ -4,6 +4,8 @@
 
 A simple and efficient Todo application that helps you manage your tasks and increase productivity. This app allows users to add, edit, delete, and mark tasks as completed, making it easy to stay organized.
 
+### [View Deployed Page](https://shamshir-hussain.github.io/todo-app/)
+
 ## Features
 
 - **Add New Tasks**: Quickly create and add tasks to your list.
