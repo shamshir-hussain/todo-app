@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A simple Todo app to keep track of your tasks."
+    />
+    <meta name="author" content="Your Name" />
+    <title>Todo App - Manage Your Tasks Efficiently</title>
+    <meta
+      name="description"
+      content="A simple and efficient Todo app to help you manage your tasks and increase productivity."
+    />
+    <meta
+      name="keywords"
+      content="Todo app, task manager, productivity, to-do list, organize tasks"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/list.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="stats-container">
+        <div class="details">
+          <h1>Todo App</h1>
+          <p>Keep it up!</p>
+          <div id="progress-bar">
+            <div id="progress"></div>
+          </div>
+        </div>
+        <div class="stats-numbers">
+          <p id="numbers">0/0</p>
+        </div>
+      </div>
+
+      <form id="taskForm" action="">
+        <input
+          id="taskInput"
+          type="text"
+          placeholder="Write your task"
+          autocomplete="off"
+          aria-label="Task input"
+          required
+        />
+        <button id="newTask" type="submit" aria-label="Add task">+</button>
+      </form>
+
+      <ul id="taskList"></ul>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+  </body>
+</html>
