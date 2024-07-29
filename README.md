@@ -31,7 +31,7 @@ A simple and efficient Todo application that helps you manage your tasks and inc
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YourUsername/todo-app.git
+   git clone https://github.com/shamshir-hussain/todo-app.git
 
    ```
 
